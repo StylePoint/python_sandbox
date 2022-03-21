@@ -13,3 +13,30 @@ VARIABLE RULES:
   - Must start with a letter or an underscore
   - Can have numbers but can not start with one
 """
+
+x = 1           # int
+y = 2.5         # float
+name = 'joa'    # str
+is_cool = True  # bool
+
+# Multiple assignment
+
+x, y, name, is_cool = (1, 2.5, "joa", True)
+
+# Basic math
+
+a = x + y
+
+print(type(x)) # <class 'int'>
+
+# Casting (add name of type)
+
+x = str(x)
+y = int(y) # Float to Int averages it 2.5 -> 2
+z = float(y) #  2 -> 2.0
+
+print(type(y), y)
+
+print(z)
+
+
